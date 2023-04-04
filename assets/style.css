@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    font-family:'tangerine', cursive, ; 
+    font-family: 'tangerine', cursive, ;
     Margin: 10px;
     padding-top: 30px;
 
@@ -48,28 +48,49 @@ h1 {
 }
 
 
-header li {
-    /* list-style: none; */
-    /* display: inline-block;  */
-    /* padding: 0 20px; */
+main  {
+        display: flex;
+    }
 
-}
-aside {
-    display:flex;
-    height: 100%;
-}
-    
-nav {
-    /* display:flex */
-}
+    aside {
+        clear: both;
+        float: left;
+        width: 20%;
+        height: 100%;
+        flex: 30%;
+        background-color: antiquewhite;
+        padding: 20px;
+        flex-wrap: wrap;
+        text-align: end;
+        border-right: black;
+    }
+    aside h2 {
 
-/* .nav-items { */
-/* justify-content: flex-end; */
-
-
-li {
-    /* width: 100%; */
-    /* height: 100% ; */
-    /* font-size: 20px; */
-    /* list-style: none; */
-}
+        padding-right: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        width:80%;
+      
+    }
+    /* .card { */
+        flex: 1 0 0;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+      }
+      
+      /* .card header { */
+        padding: 20px;
+        background: #13293d;
+        color: #fff;
+      }
+      
+      /* .card img { */
+        /* width: 100%; */
+        /* min-width: 400px; */
+      }
+    section {
+        flex: 70%;
+        disp
+    }
+        
