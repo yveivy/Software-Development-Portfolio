@@ -1,132 +1,94 @@
 * {
-    box-sizing: border-box;
-    padding: 5px;
-    margin: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
 }
 
 header {
-    /* padding: 20px; */
-    background-color: cornflowerblue;
-    box-shadow: 0px 0px 10px cyan;
+  /* padding: 20px; */
+  background-color: cornflowerblue;
+  box-shadow: 0px 0px 10px cyan;
 }
 
 h1 {
-    font-family: 'tangerine', cursive, ;
-    Margin: 10px;
-    padding-top: 30px;
+  font-family: 'tangerine', cursive, ;
+  Margin: 10px;
+  padding-top: 30px;
 
 }
 
 .navbar {
 
-    margin: 0;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  margin: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .nav-item {
-    list-style: none;
-    margin-right: 2rem;
+  list-style: none;
+  margin-right: 2rem;
 }
 
 .nav-item a {
-    text-decoration: none;
-    color: black;
-    transition: all 200ms ease-in;
+  text-decoration: none;
+  color: black;
+  transition: all 200ms ease-in;
 }
 
 .nav-item a:hover {
-    color: blue;
+  color: blue;
 
 }
 
+#words {
+  width: 500px;
+  border: 100px solid blueviolet;
+  border-radius: 5%;
+  
 
-main  {
-        display: flex;
-    }
-
-    aside {
-        clear: both;
-        float: left;
-        width: 20%;
-        height: 100%;
-        flex: 30%;
-        background-color: antiquewhite;
-        padding: 20px;
-        flex-wrap: wrap;
-        text-align: end;
-        border: 2px, solid black;
-    }
-    aside h2 {
-
-        padding-right: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        width:80%;
-      
-    }
+}
+.content {
+  margin: 0 15px 30px;
+  padding: 20px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: rgb(240, 236, 236);
+}
 
 
-    .container {
-        height: 100px;
-       border-right: cyan;
-    }
 
-    #Projectheader {
 
-        height: 500px;
-        border-right: cyan;
-        
-    }
-    /* .card { */
-        flex: 1 0 0;
-        padding: 10px;
-        text-align: center;
-        border-style: solid;
-        border-width: 1px;
-      }
-      
-      /* .card header { */
-        padding: 20px;
-        background: #13293d;
-        color: #fff;
-      }
-      
-      /* .card img { */
-        /* width: 100%; */
-        /* min-width: 400px; */
-      }
-    section img {
-        flex: 70%;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+
+
+
+
 /* 
     /*  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-  
-  /* Tablets - header changes color */
-  /* @media screen and (max-width: 992px) {
+
+/* Tablets - header changes color */
+/* @media screen and (max-width: 992px) {
     header {
       background: #772014;
     }
   } */
-  
-  /* Large smartphones - navbar changes color */
-  /* @media screen and (max-width: 768px) {
+
+/* Large smartphones - navbar changes color */
+/* @media screen and (max-width: 768px) {
     nav {
       background-color: #bb8588;
     }
   }
   
   /* Small smartphones - image placeholders change color */
-  /* @media screen and (max-width: 576px) { */
-    /* .sample-img { */
-      /* background-color: #8ac4ff; */
-    /* }
+/* @media screen and (max-width: 576px) { */
+/* .sample-img { */
+/* background-color: #8ac4ff; */
+/* }
   } */
