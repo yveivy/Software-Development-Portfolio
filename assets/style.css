@@ -49,9 +49,24 @@ h1 {
 
 #words {
   width: 500px;
-  border: 100px solid blueviolet;
+  height: 275px;
+  /* border: 100px solid blueviolet; */
   border-radius: 5%;
   
+
+}
+
+#hopper {
+  width: 500px;
+  height: 275px;
+  border-radius: 5%;
+
+}
+
+#valais {
+  width: 500px;
+  height: 275px;
+  border-radius: 5%;
 
 }
 .content {
