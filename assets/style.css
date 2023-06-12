@@ -6,7 +6,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: antiquewhite;
+  background-color: #9EB3C2;
 }
 
 header {
@@ -78,8 +78,48 @@ h1 {
 }
 
 
+/* Color Theme Swatches in Hex */
+.PLUMAS-1-hex { color: #262425; }
+.PLUMAS-2-hex { color: #4178BF; }
+.PLUMAS-3-hex { color: #014040; }
+.PLUMAS-4-hex { color: #01260E; }
+.PLUMAS-5-hex { color: #3F7330; }
+
+/* Color Theme Swatches in RGBA */
+.PLUMAS-1-rgba { color: rgba(38, 35, 37, 1); }
+.PLUMAS-2-rgba { color: rgba(65, 119, 191, 1); }
+.PLUMAS-3-rgba { color: rgba(1, 63, 63, 1); }
+.PLUMAS-4-rgba { color: rgba(0, 38, 13, 1); }
+.PLUMAS-5-rgba { color: rgba(62, 114, 48, 1); }
+
+/* Color Theme Swatches in HSLA */
+.PLUMAS-1-hsla { color: hsla(326, 3, 14, 1); }
+.PLUMAS-2-hsla { color: hsla(213, 49, 50, 1); }
+.PLUMAS-3-hsla { color: hsla(180, 96, 12, 1); }
+.PLUMAS-4-hsla { color: hsla(140, 96, 7, 1); }
+.PLUMAS-5-hsla { color: hsla(106, 40, 31, 1); }
 
 
+/* Color Theme Swatches in Hex */
+.Graphic-Design-1-hex { color: #ADCCD9; }
+.Graphic-Design-2-hex { color: #F2F2F2; }
+.Graphic-Design-3-hex { color: #8C7369; }
+.Graphic-Design-4-hex { color: #262626; }
+.Graphic-Design-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Graphic-Design-1-rgba { color: rgba(173, 204, 216, 1); }
+.Graphic-Design-2-rgba { color: rgba(242, 242, 242, 1); }
+.Graphic-Design-3-rgba { color: rgba(140, 114, 105, 1); }
+.Graphic-Design-4-rgba { color: rgba(38, 38, 38, 1); }
+.Graphic-Design-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Graphic-Design-1-hsla { color: hsla(196, 36, 76, 1); }
+.Graphic-Design-2-hsla { color: hsla(0, 0, 95, 1); }
+.Graphic-Design-3-hsla { color: hsla(16, 14, 48, 1); }
+.Graphic-Design-4-hsla { color: hsla(0, 0, 15, 1); }
+.Graphic-Design-5-hsla { color: hsla(0, 0, 5, 1); }
 
 
 
