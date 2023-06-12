@@ -14,4 +14,8 @@ Hello and welcome to my project portfolio! My name is Yve, and I am actively wor
 If you would like additional information, please contact Yevette Hunt.
 My GitHub username is yveivy
 
+## Deployed Portfolio: 
+
+https://yveivy.github.io/Software-Development-Portfolio/
+
 
